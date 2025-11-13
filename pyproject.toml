@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "martilo_diffusion2d"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{name = "Lucia Agullo Marti"}]
 description = "A Python package for solving the 2D diffusion equation."
 readme = "README.md"

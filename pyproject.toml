@@ -6,9 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "martilo_diffusion2d"
 version = "0.0.1"
 authors = [{name = "Lucia Agullo Marti"}]
-description = "A 2D diffusion equation solver implemented in Python."
+description = "A Python package for solving the 2D diffusion equation."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.6"
 license = "CC-BY-4.0"
 license-files = ["LICENSE"]
 keywords = ["diffusion", "2D", "numerical", "simulation"]
@@ -18,6 +18,13 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.13"
 ]
+dependencies = [
+    "numpy>=1.19.0",
+    "matplotlib>=3.3.0",
+]
 
 [project.urls]
 Repository = "https://github.com/lucia-agullo-marti/diffusion2d"
+
+[tool.setuptools]
+packages = ["martilo_diffusion2d"]
